@@ -356,8 +356,8 @@ function animate() {
         ctx.moveTo(d.x, d.y);
         ctx.lineTo(d2.x, d2.y);
         ctx.strokeStyle = lineColor;
-        ctx.lineWidth = 0.8;
-        ctx.globalAlpha = (1 - dist/130) * 0.8;
+        ctx.lineWidth = 1.5;
+        ctx.globalAlpha = (1 - dist/130) * 1.0;
         ctx.stroke();
         ctx.globalAlpha = 1;
       }
